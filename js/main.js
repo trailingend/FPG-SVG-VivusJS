@@ -1,8 +1,18 @@
 (function($) {
 	setup();
-
+	
 	function setup() {
-		var tl = new TimelineLite();
-		tl.from("#bird",1, {drawSVG:0});
+		var fireInit = new Vivus('fire', {
+			type: 'delayed',
+			animTimingFunction: Vivus.EASE
+		});
+		fireInit.stop();
+		var birdInit = new Vivus('bird', {
+			type: 'oneByOne',
+			duration: 200,
+			animTimingFunction: Vivus.EASE
+		}, function() {
+			fireInit.play();
+		});
 	}
 })(jQuery);

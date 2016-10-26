@@ -1,6 +1,8 @@
 (function($) {
-	new Vivus('bird', {
-		type: 'delayed',
-    	duration: 200,
-    	animTimingFunction: Vivus.EASE});
+	setup();
+
+	function setup() {
+		var tl = new TimelineLite();
+		tl.from("#bird",1, {drawSVG:0});
+	}
 })(jQuery);

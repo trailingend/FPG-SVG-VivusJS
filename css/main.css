@@ -5,6 +5,15 @@
 	max-width: 500px;
 	max-height: 500px;
 }
+#bird, #fire {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+}
 .stroke-black{
 	fill:none;
 	stroke:#000000;

@@ -1,0 +1,23 @@
+.container {
+	position: relative;
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+}
+.stroke-black{
+	fill:none;
+	stroke:#000000;
+	stroke-miterlimit:10;
+}
+.fill-black{
+	fill:none;
+	stroke:#000000;
+	stroke-width:8;
+	stroke-miterlimit:10;
+}
+.stroke-red{
+	fill:none;
+	stroke:#BE1E2D;
+	stroke-miterlimit:10;
+}

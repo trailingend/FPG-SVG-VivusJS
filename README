@@ -1,0 +1,4 @@
+### Notes
+
+- In Illustrator, do not embed any path into layers. the name of the path tranforms to id of the <path> tag
+- only works for simple path/stroke; need to figure out another way to process fill/ various stroke drawings
